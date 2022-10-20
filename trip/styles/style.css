@@ -1,0 +1,53 @@
+body {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: cornsilk;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #000080;
+}
+nav {
+    background-color:rgb(143, 14, 139);
+    /* originally there would be grid columns here
+    but it loks much nicer justified on the left */
+}
+nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    color: wheat;
+}
+
+.hero {
+    display: grid;
+    margin-top: 10px;
+    place-items: center;
+}
+/* .hero-message {
+    grid-column: 1/2;
+    grid-row: 2/3;
+} */
+.hero-message h1 {
+    text-align: center;
+    font-size: 1em;
+}
+#landing-hero {
+    max-width: 100%;
+}
+/* footer {
+
+} */
+#footer-grid {
+    background-color:rgb(143, 14, 139);
+    margin-top: -43px;
+    color: cornsilk;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+footer a {
+    color: wheat;
+}
