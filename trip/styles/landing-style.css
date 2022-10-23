@@ -11,7 +11,7 @@ body {
 nav {
     background-color:rgb(143, 14, 139);
     /* originally there would be grid columns here
-    but it loks much nicer justified on the left */
+    but it looks much nicer justified on the left */
 }
 nav a {
     text-align: center;
