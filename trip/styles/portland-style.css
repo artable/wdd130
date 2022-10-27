@@ -25,16 +25,34 @@ nav a {
     margin-top: 10px;
     place-items: center;
 }
+/* .hero-message {
+    grid-column: 1/2;
+    grid-row: 2/3;
+} */
 .hero-message h1 {
-    text-align: center;
     font-size: 1em;
 }
-#landing-hero {
+#portland-hero {
     max-width: 100%;
 }
-/* footer {
-
+#portland-image-grid {
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 4fr 1fr;
+}
+/* #gardens-img {
+    max-width: 100%;
 } */
+.trailer-image {
+    max-width: 100%;
+}
+.trailer-text h4{
+    text-align: center;
+    font-size: .7em;
+}
+
+
 #footer-grid {
     background-color:rgb(143, 14, 139);
     margin-top: -43px;
